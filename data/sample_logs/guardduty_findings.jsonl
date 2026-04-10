@@ -1,0 +1,2 @@
+{"updatedAt": "2026-04-10T03:47:23Z", "severity": 8.7, "type": "UnauthorizedAccess:IAMUser/InstanceCredentialExfiltration", "accountId": "111122223333", "region": "us-east-1", "service": {"action": {"actionType": "AWS_API_CALL"}}, "resource": {"resourceType": "Instance"}, "log_type": "guardduty"}
+{"updatedAt": "2026-04-10T03:48:23Z", "severity": 4.2, "type": "Recon:EC2/PortProbeUnprotectedPort", "accountId": "111122223333", "region": "us-east-1", "service": {"action": {"actionType": "NETWORK_CONNECTION"}}, "resource": {"resourceType": "Instance"}, "log_type": "guardduty"}

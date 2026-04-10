@@ -1,0 +1,4 @@
+index=cloud sourcetype=aws:guardduty:json
+| where severity >= 7
+| table updatedAt accountId region type severity service.action.actionType
+| eval risk="high"

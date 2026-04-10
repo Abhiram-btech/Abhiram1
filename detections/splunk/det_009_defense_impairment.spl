@@ -1,0 +1,3 @@
+index=endpoint sourcetype=sysmon:json EventID=1 Image="*powershell*" CommandLine="*Set-MpPreference*DisableRealtimeMonitoring*"
+| table timestamp host User CommandLine
+| eval risk="high"

@@ -1,0 +1,3 @@
+index=endpoint sourcetype=winsec:json EventID=4698
+| table timestamp host TaskName TaskContent SubjectUserName
+| eval risk="medium"

