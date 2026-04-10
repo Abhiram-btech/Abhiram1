@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {"id": "DET-001", "name": "Multiple Failed Logons (Brute Force)", "mitre_technique": "T1110.001", "severity": "high", "tactic": "Credential Access"},
+    {"id": "DET-002", "name": "Encoded PowerShell Execution", "mitre_technique": "T1059.001", "severity": "high", "tactic": "Execution"},
+    {"id": "DET-003", "name": "LSASS Access Attempt", "mitre_technique": "T1003.001", "severity": "critical", "tactic": "Credential Access"},
+    {"id": "DET-004", "name": "Local Account Creation", "mitre_technique": "T1136.001", "severity": "medium", "tactic": "Persistence"},
+    {"id": "DET-005", "name": "Suspicious Service Creation", "mitre_technique": "T1543.003", "severity": "high", "tactic": "Persistence"},
+    {"id": "DET-006", "name": "Suspicious Rundll32 Execution", "mitre_technique": "T1218.011", "severity": "high", "tactic": "Defense Evasion"},
+    {"id": "DET-007", "name": "Scheduled Task Creation", "mitre_technique": "T1053.005", "severity": "medium", "tactic": "Persistence"},
+    {"id": "DET-008", "name": "Suspicious WMI Execution", "mitre_technique": "T1047", "severity": "medium", "tactic": "Execution"},
+    {"id": "DET-009", "name": "Endpoint Defense Tampering", "mitre_technique": "T1562.001", "severity": "high", "tactic": "Defense Evasion"},
+    {"id": "DET-010", "name": "IAM Privilege Escalation Policy Change", "mitre_technique": "T1098", "severity": "high", "tactic": "Privilege Escalation"},
+    {"id": "DET-011", "name": "Root Console Login Without MFA", "mitre_technique": "T1078.004", "severity": "critical", "tactic": "Initial Access"},
+    {"id": "DET-012", "name": "High-Severity GuardDuty Finding", "mitre_technique": "T1087.004", "severity": "high", "tactic": "Discovery"}
+  ]
+}

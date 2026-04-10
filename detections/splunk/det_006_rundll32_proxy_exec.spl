@@ -1,0 +1,4 @@
+index=endpoint sourcetype=sysmon:json EventID=1 Image="*rundll32.exe"
+| where like(CommandLine, "%http%") OR like(CommandLine, "%.dll,%")
+| table timestamp host User CommandLine
+| eval risk="high"

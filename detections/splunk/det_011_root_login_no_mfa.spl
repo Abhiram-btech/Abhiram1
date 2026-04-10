@@ -1,0 +1,3 @@
+index=cloud sourcetype=aws:cloudtrail:json eventName=ConsoleLogin userIdentity.type=Root responseElements.ConsoleLogin=Success additionalEventData.MFAUsed=No
+| table eventTime sourceIPAddress awsRegion userAgent
+| eval risk="critical"
