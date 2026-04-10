@@ -1,0 +1,3 @@
+index=endpoint sourcetype=sysmon:json EventID=10 TargetImage="*lsass.exe*"
+| table timestamp host SourceImage TargetImage GrantedAccess
+| eval risk="critical"

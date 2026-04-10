@@ -1,0 +1,3 @@
+index=endpoint sourcetype=winsec:json EventID=4697
+| table timestamp host ServiceName ServiceFileName SubjectUserName
+| eval risk="high"

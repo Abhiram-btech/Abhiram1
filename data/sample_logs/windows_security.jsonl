@@ -1,0 +1,9 @@
+{"timestamp": "2026-04-10T03:34:23Z", "EventID": 4625, "AccountName": "administrator", "IpAddress": "203.0.113.50", "LogonType": 3, "log_type": "security"}
+{"timestamp": "2026-04-10T03:34:38Z", "EventID": 4625, "AccountName": "administrator", "IpAddress": "203.0.113.50", "LogonType": 3, "log_type": "security"}
+{"timestamp": "2026-04-10T03:34:53Z", "EventID": 4625, "AccountName": "administrator", "IpAddress": "203.0.113.50", "LogonType": 3, "log_type": "security"}
+{"timestamp": "2026-04-10T03:35:08Z", "EventID": 4625, "AccountName": "administrator", "IpAddress": "203.0.113.50", "LogonType": 3, "log_type": "security"}
+{"timestamp": "2026-04-10T03:35:23Z", "EventID": 4625, "AccountName": "administrator", "IpAddress": "203.0.113.50", "LogonType": 3, "log_type": "security"}
+{"timestamp": "2026-04-10T03:35:38Z", "EventID": 4625, "AccountName": "administrator", "IpAddress": "203.0.113.50", "LogonType": 3, "log_type": "security"}
+{"timestamp": "2026-04-10T03:37:23Z", "EventID": 4720, "SubjectUserName": "administrator", "TargetUserName": "svc-backdoor", "log_type": "security"}
+{"timestamp": "2026-04-10T03:38:23Z", "EventID": 4697, "SubjectUserName": "administrator", "ServiceName": "UpdaterSvc", "ServiceFileName": "C:\\Temp\\updater.exe", "log_type": "security"}
+{"timestamp": "2026-04-10T03:39:23Z", "EventID": 4698, "SubjectUserName": "administrator", "TaskName": "\\Microsoft\\Windows\\UpdateCheck", "TaskContent": "powershell -enc SQBFAFgA", "log_type": "security"}

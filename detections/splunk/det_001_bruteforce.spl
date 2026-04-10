@@ -1,0 +1,4 @@
+index=endpoint sourcetype=winsec:json EventID=4625
+| stats count values(LogonType) as logon_types by AccountName, IpAddress
+| where count >= 5
+| eval risk="high"

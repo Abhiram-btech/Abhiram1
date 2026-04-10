@@ -1,0 +1,4 @@
+index=cloud sourcetype=aws:cloudtrail:json eventSource=iam.amazonaws.com (eventName=AttachUserPolicy OR eventName=PutUserPolicy OR eventName=AttachRolePolicy)
+| spath path=requestParameters.policyArn output=policyArn
+| table eventTime userIdentity.arn sourceIPAddress eventName policyArn
+| eval risk="high"
